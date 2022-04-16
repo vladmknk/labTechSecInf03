@@ -65,5 +65,10 @@ h1 {
     text-align: center;
 }
 .result-wrapper {
+    word-wrap: break-word;
     width: 50%;
+}
+.result-wrapper h3 {
+    margin: 0;
+    font-size: 20px;
 }

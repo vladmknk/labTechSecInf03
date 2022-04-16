@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					+'<div class="notranslate">' +
 						'<img src="https://programm.top/images/vigenere-table.png" alt="Vigenere-Table-English" width=300px height=300px>' +
 						'<div class="result-wrapper">'+
-							'<div class="result-text">Отримали текст: '+r+'</div>' + 
+							'<div class="result-text"><h3>Отримали текст:</h3>'+r+'</div>' + 
 						+'</div>'
 					+'</div>';
 				$('#result').html(res);
@@ -72,8 +72,8 @@ document.addEventListener("DOMContentLoaded", function() {
 					+'<div class="notranslate">' +
 						'<img src="https://programm.top/images/vigenere-table.png" alt="Vigenere-Table-English" width=300px height=300px>' +
 						'<div class="result-wrapper">'+
-							'<div class="result-text">Отримали текст: '+r+'</div>' + 
-							'<div class="result-text-decrypt">Розшифрований текст: '+dec+'</div>'
+							'<div class="result-text"><h3>Отримали текст:</h3>'+r+'</div>' + 
+							'<div class="result-text-decrypt"><h3>Розшифрований текст:</h3>'+dec+'</div>'
 						+'</div>'
 					+'</div>';
 					$('#result').html(reslog);
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				+'<div class="notranslate">' +
 					'<img src="https://teteryakv12.files.wordpress.com/2014/10/d0b2d0bfd0b0d0bfd0b0d0bf.jpg" alt="Vigenere-Table-Ukraine" width=300px height=300px>' +
 					'<div class="result-wrapper">'+
-						'<div class="result-text">Отримали текст: '+r+'</div>' + 
+						'<div class="result-text"><h3>Отримали текст:</h3>'+r+'</div>' + 
 					+'</div>'
 				+'</div>';
 				$('#result').html(res);
@@ -97,8 +97,8 @@ document.addEventListener("DOMContentLoaded", function() {
 					+'<div class="notranslate">' +
 						'<img src="https://teteryakv12.files.wordpress.com/2014/10/d0b2d0bfd0b0d0bfd0b0d0bf.jpg" alt="Vigenere-Table-Ukraine" width=300px height=300px>' +
 						'<div class="result-wrapper">'+
-							'<div class="result-text">Отримали текст: '+r+'</div>' + 
-							'<div class="result-text-decrypt">Розшифрований текст: '+dec+'</div>'
+							'<div class="result-text"><h3>Отримали текст:</h3>'+r+'</div>' + 
+							'<div class="result-text-decrypt"><h3>Розшифрований текст:</h3>'+dec+'</div>'
 						+'</div>'
 					+'</div>';
 					$('#result').html(reslog);
