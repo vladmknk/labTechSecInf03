@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lab02SecInf</title>
+</head>
+<body>
+    <div class="block">
+        <p style="margin-left:10px; color:rgba(174, 174, 174, 0.7)" >Сторінку розроблено студентом групи КН-1901<br>Макаренко Владислав</p>
+        <div class="block__container">
+            <h1>Шифр Віженера</h1>
+            <div class="block__wrapper">
+                <div class="block__input">
+                    <p><label for="inputText">Вхідний текст</label></p>
+                    <textarea name="inputText" id="InText" maxlength="200" rows="2" placeholder="Введіть текст"></textarea>
+                </div>
+                <div class="flex__wrapper">
+                    <div class="flex_item">
+                        <p class="labelKey"><label for="inputKey" class="inputKey">Ключ</label></p>
+                        <textarea name="inputKey" id="InKey" cols="50" rows="1"></textarea>
+                    </div>
+                    <div class="flex_item">
+                        <label for="choice">Дія</label>
+                        <div class="radio-wrapper">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="choice" id="action-encrypt" value="encrypt" checked><label class="form-check-label" for="action-encrypt">Зашифрувати</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="choice" id="action-decrypt" value="decrypt"><label class="form-check-label" for="action-decrypt">Дешифрувати</label>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="flex_item">
+                        <label for="alphabets">Алфавіт</label>
+                        <select id="alphabet" class="form-select">
+                            <option value="en">Англійський</option>
+                            <option value="uk" selected>Український</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <input id="submit-button" class="btn btn-primary" type="button" value="Здійснити дію">
+                </div>
+            </div>
+            <div id="result" class="finalResult">
+                <!-- <h2 style="text-align: center;">Результат:</h2>
+                <div class="notranslate">
+                    <img src="https://programm.top/images/vigenere-table.png" alt="Vigenere-Table-English" width=300px height=300px>
+                    <div class="result-wrapper">
+                        <div class="result-text">ПриветПривет</div>
+                    </div>
+                </div> -->
+            </div>
+
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

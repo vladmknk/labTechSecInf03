@@ -1,0 +1,69 @@
+label {
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+.block__container {
+    width: 600px;
+    min-height: 200px;
+    margin: 0 auto;
+}
+#InText {
+    width: 100%;
+    border-radius: 3px;
+}
+#InKey {
+    margin-top: 2px;
+    width: 80%;
+    border-radius: 3px;
+}
+.inputKey {
+    text-align: center;
+}
+.flex__wrapper {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+#submit-button {
+    width: 33%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 10px;
+}
+.flex_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 7px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.labelKey {
+    margin: 0;
+}
+#alphabet {
+    border-radius: 3px;
+    margin: 5px 15px 5px 15px;
+}
+.flex_item .form-select {
+    width: auto;
+}
+.radio-wrapper {
+    margin: 5px 15px 5px 15px;
+}
+.finalResult {
+    margin-top: 15px;
+}
+.notranslate {
+    display: flex;
+    width:100%;
+    margin: 20px 0;
+    text-align: center;
+}
+.result-wrapper {
+    width: 50%;
+}
